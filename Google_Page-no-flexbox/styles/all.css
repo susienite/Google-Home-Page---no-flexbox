@@ -1,0 +1,230 @@
+
+
+body {
+    font-size: 14px; 
+    font-family: arial, sans-serif;
+    color: #222; 
+    background: #FFF;
+}
+
+nav{
+    /* remaining of the text is hidden */
+    overflow: hidden; 
+    padding: 0px 5px;
+    margin: 0px 2px 2px 0px;  
+}
+
+nav a{
+    /* Stops the underlining of links */
+    text-decoration: none;
+    color: #222;    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.navleft{
+    float:left; 
+    padding: 5px; /* repeating code */
+    margin: 9px 5px; 
+}
+
+.navright{
+    float: right; 
+    padding: 5px; 
+    margin: 9px 5px; 
+}
+
+nav img {
+    width: 32px;
+    height: auto;   
+    opacity: 0.6;
+}
+
+nav img:hover {
+    border-color: black;  
+    opacity: 100%; 
+}
+
+nav button {
+    float: right; 
+    background-color: #2b7de9; 
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    letter-spacing: 0.25px;
+    line-height: 16px; 
+
+    margin-left: 8px; 
+    margin-right: 8px; 
+    padding: 9px 23px; 
+    /* Creates a transparent solid border of 1 px around button */
+    border: 1px solid transparent; 
+    /* Rounds the edges*/
+    border-radius: 4px; 
+
+    text-decoration: none;
+    /* changes the cursor bc the cursor doesn't auto change for buttons */
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),
+   0 1px 3px 1px rgba(66,133,244,0.15);  
+}
+
+.brand{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 50px 10px 10px 10px; /* ?? */
+    margin-top: 10px; 
+    position: relative;
+}
+
+.searchcontainer  {
+    padding: 10px;
+   
+}
+
+.searchbox {
+    background-color:#FFF; 
+    width: auto; 
+    max-width: 584px; 
+
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; 
+    height: 44px; /* height of box */
+    margin: 0 auto; 
+
+    
+    /* there willbe 3 things that can layer it */
+    display: flex; 
+    z-index: 3; 
+
+    position: relative; 
+}
+
+.searchbox:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+.searchglass {
+    height: 28px;
+    width: 35px;
+    border-radius: 50px;
+
+    margin: 8px 0px 5px 8px; 
+
+    display:flex; 
+    align-items: center;
+}
+
+.searchtext {
+    background-color: transparent;
+    border: none;
+    margin: 0; 
+    padding: 0; 
+    color: rgba(0,0,0, 0.87);
+    word-wrap: break-word; 
+    display: flex; 
+    flex: 100%;
+    margin-top: 6px;
+    margin-right: 20px; 
+    height: 32px; 
+    font-size: 16px;  
+}
+
+.searchtext:focus {
+    outline: none; 
+}
+
+
+.searchbuttons_out {
+    padding-top: 18px; 
+    text-align: center;
+}
+
+.searchbuttons {
+    cursor: pointer; 
+
+    border-radius: 4px; 
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+
+    color: #3c4043; 
+    font-family: arial, sans-serif; 
+    font-size: 14px; 
+    margin: 11px 4px; 
+    padding: 0 16px; 
+    line-height: 27 px;
+    height: 36px; 
+}
+
+.searchbuttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa; 
+    border: #f8f9fa;
+    color: #202124; 
+}
+
+footer {
+    position: fixed;
+    height: 50px; 
+    left: 0; 
+    bottom: 0;  /* creates footer on the bottom */ 
+    width: 100%;
+    padding: 0 20px;
+    background-color: #EEEEEE; 
+
+}
+
+footer a {  
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #70757a; 
+    padding: 15px 20px; 
+    cursor: pointer;   
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footerleft{
+    float: left; 
+}
+
+.footerleft{
+    float: left; 
+}
+
+
+.footercenter{
+    margin: 0px 0 0 100px; 
+    float: left; 
+}
+
+#carbon-neutral-logo {
+    margin-top: 5px;
+    height: 30px; 
+    float: left; 
+}
+
+#carbon-neutral-text {
+
+    float: right; 
+
+    
+}
+
+.footerright{
+    float: right; 
+}
+
+
+
+
